@@ -6,7 +6,7 @@ ENV NGINX_VERSION 1.17.10
 ENV NJS_VERSION   0.3.9
 ENV PKG_RELEASE   1
 ENV UID           1000
-ENV GIG           101
+ENV GID           101
 
 RUN set -x \
 # create nginx user/group first, to be consistent throughout docker variants
